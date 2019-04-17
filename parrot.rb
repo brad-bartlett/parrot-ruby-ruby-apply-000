@@ -1,4 +1,4 @@
-def print_and_return_parrot
-  puts "Squawk!"
-  "Squawk!"
+def parrot( string = "Squawk!")
+  puts "#{string}"
+  "#{string}"
 end
